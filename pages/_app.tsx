@@ -22,8 +22,10 @@ export default function MyApp(props: MyAppProps) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <CssVarsProvider theme={theme}>
-        <CssBaseline />
-        <Component {...pageProps} />
+        
+          <CssBaseline />
+            <Component {...pageProps} />
+        
       </CssVarsProvider>
     </CacheProvider>
   );

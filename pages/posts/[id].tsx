@@ -4,7 +4,6 @@ import Head from 'next/head'
 import Date from '../../components/date'
 import { GetStaticProps, GetStaticPaths } from 'next'
 import { Box } from '@mui/joy'
-import { margin } from '@mui/system'
 
 export default function Post({
   postData
