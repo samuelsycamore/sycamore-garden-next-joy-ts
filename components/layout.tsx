@@ -1,11 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from './layout.module.css'
-import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = 'Sam Sycamore'
-export const siteTitle = 'Sycamore Garden'
+const name = 'Next Joy Blog'
+export const siteTitle = 'Next Joy Blog'
 
 export default function Layout({
   children,
@@ -15,7 +12,7 @@ export default function Layout({
   home?: boolean
 }) {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
         <meta
@@ -31,15 +28,15 @@ export default function Layout({
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header className={styles.header}>
+      <header>
         {home ? (
           <>
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1>{name}</h1>
           </>
         ) : (
           <>
-            <h2 className={utilStyles.headingLg}>
-              <Link href="/" className={utilStyles.colorInherit}>
+            <h2>
+              <Link href="/">
                 {name}
               </Link>
             </h2>
@@ -48,7 +45,7 @@ export default function Layout({
       </header>
       <main>{children}</main>
       {!home && (
-        <div className={styles.backToHome}>
+        <div>
           <Link href="/">← Back to home</Link>
         </div>
       )}
