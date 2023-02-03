@@ -3,7 +3,7 @@ import { getAllPostIds, getPostData } from "../../lib/posts";
 import Head from "next/head";
 import Date from "../../components/date";
 import { GetStaticProps, GetStaticPaths } from "next";
-import { Box } from "@mui/joy";
+import { Box, Typography } from "@mui/joy";
 
 export default function Post({
   postData,
@@ -20,11 +20,11 @@ export default function Post({
         <title>{postData.title}</title>
       </Head>
       <Box sx={{ maxWidth: "600px", mx: "auto" }}>
-        <h1>{postData.title}</h1>
+        <Typography level="display2" fontSize="xl">{postData.title}</Typography>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <div>
+        <Typography level="body3">
           Published on <Date dateString={postData.date} />
-        </div>
+        </Typography>
       </Box>
     </Layout>
   );

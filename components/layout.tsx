@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Link from "next/link";
+import { Typography } from "@mui/joy";
 
-const name = "Next Joy Blog";
+const name = "Sam Sycamore";
 export const siteTitle = "Next Joy Blog";
 
 export default function Layout({
@@ -28,13 +29,13 @@ export default function Layout({
       <header>
         {home ? (
           <>
-            <h1>{name}</h1>
+            <Typography level="display1">{name.toUpperCase()}</Typography>
           </>
         ) : (
           <>
-            <h2>
+            <Typography level="display2" fontSize="xl">
               <Link href="/">{name}</Link>
-            </h2>
+            </Typography>
           </>
         )}
       </header>

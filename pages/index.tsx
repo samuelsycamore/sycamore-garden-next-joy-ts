@@ -5,6 +5,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 import TypographySystem from "../components/typographySystem";
+import { Typography } from "@mui/joy";
 
 export default function Home({
   allPostsData,
@@ -22,7 +23,7 @@ export default function Home({
       </Head>
 
       <section>
-        <h2>Posts</h2>
+        <Typography level="display2" fontSize="xl">Stories</Typography>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
