@@ -1,1 +1,1 @@
-Sycamore Garden
+Next + Joy + TypeScript Blog
