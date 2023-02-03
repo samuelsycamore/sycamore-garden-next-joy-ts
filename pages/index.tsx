@@ -23,7 +23,7 @@ export default function Home({
       </Head>
      
       <section>
-        <h2 className={utilStyles.headingLg}>Stories</h2>
+        <h2 className={utilStyles.headingLg}>Posts</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
