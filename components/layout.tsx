@@ -1,24 +1,21 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
 
-const name = 'Next Joy Blog'
-export const siteTitle = 'Next Joy Blog'
+const name = "Next Joy Blog";
+export const siteTitle = "Next Joy Blog";
 
 export default function Layout({
   children,
-  home
+  home,
 }: {
-  children: React.ReactNode
-  home?: boolean
+  children: React.ReactNode;
+  home?: boolean;
 }) {
   return (
     <div>
       <Head>
         <link rel="icon" href="/favicon.ico" />
-        <meta
-          name="description"
-          content="Sycamore Garden"
-        />
+        <meta name="description" content="Sycamore Garden" />
         <meta
           property="og:image"
           content={`https://og-image.vercel.app/${encodeURI(
@@ -36,9 +33,7 @@ export default function Layout({
         ) : (
           <>
             <h2>
-              <Link href="/">
-                {name}
-              </Link>
+              <Link href="/">{name}</Link>
             </h2>
           </>
         )}
@@ -50,5 +45,5 @@ export default function Layout({
         </div>
       )}
     </div>
-  )
+  );
 }

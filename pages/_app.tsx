@@ -1,11 +1,11 @@
-import * as React from 'react';
-import Head from 'next/head';
-import { AppProps } from 'next/app';
-import { CssVarsProvider } from '@mui/joy/styles';
-import theme from '../src/theme'
-import CssBaseline from '@mui/joy/CssBaseline';
-import { CacheProvider, EmotionCache } from '@emotion/react';
-import createEmotionCache from '../src/createEmotionCache';
+import * as React from "react";
+import Head from "next/head";
+import { AppProps } from "next/app";
+import { CssVarsProvider } from "@mui/joy/styles";
+import theme from "../src/theme";
+import CssBaseline from "@mui/joy/CssBaseline";
+import { CacheProvider, EmotionCache } from "@emotion/react";
+import createEmotionCache from "../src/createEmotionCache";
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -22,10 +22,8 @@ export default function MyApp(props: MyAppProps) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <CssVarsProvider theme={theme}>
-        
-          <CssBaseline />
-            <Component {...pageProps} />
-        
+        <CssBaseline />
+        <Component {...pageProps} />
       </CssVarsProvider>
     </CacheProvider>
   );

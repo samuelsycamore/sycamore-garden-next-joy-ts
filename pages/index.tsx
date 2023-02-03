@@ -1,27 +1,26 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import { getSortedPostsData } from '../lib/posts'
-import Link from 'next/link'
-import Date from '../components/date'
-import { GetStaticProps } from 'next'
-import TypographySystem from '../components/typographySystem'
-
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import { getSortedPostsData } from "../lib/posts";
+import Link from "next/link";
+import Date from "../components/date";
+import { GetStaticProps } from "next";
+import TypographySystem from "../components/typographySystem";
 
 export default function Home({
-  allPostsData
+  allPostsData,
 }: {
   allPostsData: {
-    date: string
-    title: string
-    id: string
-  }[]
+    date: string;
+    title: string;
+    id: string;
+  }[];
 }) {
   return (
     <Layout home>
       <Head>
         <title>{siteTitle}</title>
       </Head>
-     
+
       <section>
         <h2>Posts</h2>
         <ul>
@@ -40,14 +39,14 @@ export default function Home({
         <TypographySystem />
       </section>
     </Layout>
-  )
+  );
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const allPostsData = getSortedPostsData()
+  const allPostsData = getSortedPostsData();
   return {
     props: {
-      allPostsData
-    }
-  }
-}
+      allPostsData,
+    },
+  };
+};

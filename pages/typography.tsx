@@ -1,10 +1,8 @@
-import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
-import TypographySystem from '../components/typographySystem'
+import Head from "next/head";
+import Layout, { siteTitle } from "../components/layout";
+import TypographySystem from "../components/typographySystem";
 
-
-export default function TypographySys({
-}) {
+export default function TypographySys({}) {
   return (
     <Layout home>
       <Head>
@@ -14,5 +12,5 @@ export default function TypographySys({
         <TypographySystem />
       </section>
     </Layout>
-  )
+  );
 }

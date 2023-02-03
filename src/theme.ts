@@ -1,4 +1,4 @@
-import { extendTheme } from '@mui/joy/styles';
+import { extendTheme } from "@mui/joy/styles";
 
 declare module "@mui/joy/styles" {
   interface TypographySystemOverrides {
@@ -36,8 +36,7 @@ declare module "@mui/joy/styles" {
 
 const theme = extendTheme({
   fontFamily: {
-    body:
-      "'Libre Baskerville', var(--joy-fontFamily-fallback)"
+    body: "'Libre Baskerville', var(--joy-fontFamily-fallback)",
   },
   typography: {
     // @ts-ignore
@@ -58,92 +57,92 @@ const theme = extendTheme({
     displayLarge: {
       fontSize: "57px",
       lineHeight: "64px",
-      letterSpacing: "-0.25px"
+      letterSpacing: "-0.25px",
     },
     displayMedium: {
       fontSize: "45px",
-      lineHeight: "52px"
+      lineHeight: "52px",
     },
     displaySmall: {
       fontSize: "36px",
-      lineHeight: "44px"
+      lineHeight: "44px",
     },
     headlineLarge: {
       fontSize: "32px",
-      lineHeight: "40px"
+      lineHeight: "40px",
     },
     headlineMedium: {
       fontSize: "28px",
-      lineHeight: "36px"
+      lineHeight: "36px",
     },
     headlineSmall: {
       fontSize: "24px",
-      lineHeight: "32px"
+      lineHeight: "32px",
     },
     titleLarge: {
       fontSize: "22px",
-      lineHeight: "28px"
+      lineHeight: "28px",
     },
     titleMedium: {
       fontSize: "16px",
       lineHeight: "24px",
       fontWeight: "500",
-      letterSpacing: "0.1px"
+      letterSpacing: "0.1px",
     },
     titleSmall: {
       fontSize: "14px",
       lineHeight: "20px",
       fontWeight: "500",
-      letterSpacing: "0.1px"
+      letterSpacing: "0.1px",
     },
     labelLarge: {
       fontSize: "14px",
       lineHeight: "20px",
       fontWeight: "500",
-      letterSpacing: "0.1px"
+      letterSpacing: "0.1px",
     },
     labelMedium: {
       fontSize: "12px",
       lineHeight: "16px",
       fontWeight: "500",
-      letterSpacing: "0.5px"
+      letterSpacing: "0.5px",
     },
     labelSmall: {
       fontSize: "11px",
       lineHeight: "16px",
       fontWeight: "500",
-      letterSpacing: "0.5px"
+      letterSpacing: "0.5px",
     },
     bodyLarge: {
       fontSize: "16px",
       lineHeight: "24px",
-      letterSpacing: "0.5px"
+      letterSpacing: "0.5px",
     },
     bodyMedium: {
       fontSize: "14px",
       lineHeight: "20px",
-      letterSpacing: "0.25px"
+      letterSpacing: "0.25px",
     },
     bodySmall: {
       fontSize: "12px",
       lineHeight: "16px",
-      letterSpacing: "0.4px"
-    }
+      letterSpacing: "0.4px",
+    },
   },
   colorSchemes: {
     light: {
       palette: {
         primary: {
-          50: '#C0CCD9',
-          100: '#A5B8CF',
-          200: '#6A96CA',
-          300: '#4886D0',
-          400: '#2178DD',
-          500: '#096BDE',
-          600: '#1B62B5',
-          700: '#265995',
-          800: '#2F4968',
-          900: '#2F3C4C',
+          50: "#C0CCD9",
+          100: "#A5B8CF",
+          200: "#6A96CA",
+          300: "#4886D0",
+          400: "#2178DD",
+          500: "#096BDE",
+          600: "#1B62B5",
+          700: "#265995",
+          800: "#2F4968",
+          900: "#2F3C4C",
         },
       },
     },
@@ -151,6 +150,5 @@ const theme = extendTheme({
 });
 
 // Then, pass it to `<CssVarsProvider theme={theme}>`.
-
 
 export default theme;

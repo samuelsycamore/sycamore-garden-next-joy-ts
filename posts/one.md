@@ -1,6 +1,6 @@
 ---
-title: 'Hipsum'
-date: '2023-02-02'
+title: "Hipsum"
+date: "2023-02-02"
 ---
 
 XOXO plaid af, cronut wayfarers twee locavore tote bag. Salvia pour-over sriracha meh man bun slow-carb polaroid tbh locavore. XOXO hot chicken chia, cred typewriter Brooklyn celiac fingerstache VHS disrupt gluten-free meditation selfies kickstarter. Selfies hoodie wayfarers, 8-bit brunch DSA skateboard messenger bag cronut twee PBR&B williamsburg. Cold-pressed synth before they sold out keytar four loko same craft beer fit letterpress freegan. Thundercats kombucha chia bruh flannel letterpress chartreuse. Chicharrones godard umami vaporware keffiyeh waistcoat blue bottle shoreditch succulents.
