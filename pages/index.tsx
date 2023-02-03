@@ -21,8 +21,10 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
 
-      <Box sx={{ maxWidth: '600px', mx: 'auto' }}>
-        <Typography level="display2" fontSize="xl">Stories</Typography>
+      <Box sx={{ maxWidth: "600px", mx: "auto" }}>
+        <Typography level="display2" fontSize="xl">
+          Stories
+        </Typography>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
