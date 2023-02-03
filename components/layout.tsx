@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Typography } from "@mui/joy";
 
 const name = "Sam Sycamore";
-export const siteTitle = "Next Joy Blog";
+export const siteTitle = "Sycamore Garden";
 
 export default function Layout({
   children,
