@@ -8,6 +8,7 @@
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@fontsource/cormorant-garamond": "^4.5.10",
     "@fontsource/public-sans": "^4.5.12",
     "@mui/joy": "^5.0.0-alpha.65",
     "date-fns": "^2.29.3",
