@@ -37,7 +37,7 @@ declare module "@mui/joy/styles" {
 const theme = extendTheme({
   fontFamily: {
     body:
-      "'Cormorant', var(--joy-fontFamily-fallback)"
+      "'Libre Baskerville', var(--joy-fontFamily-fallback)"
   },
   typography: {
     // @ts-ignore

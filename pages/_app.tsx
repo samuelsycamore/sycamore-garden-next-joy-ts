@@ -2,10 +2,10 @@ import * as React from 'react';
 import Head from 'next/head';
 import { AppProps } from 'next/app';
 import { CssVarsProvider } from '@mui/joy/styles';
-import theme from '../lib/theme'
+import theme from '../src/theme'
 import CssBaseline from '@mui/joy/CssBaseline';
 import { CacheProvider, EmotionCache } from '@emotion/react';
-import createEmotionCache from '../lib/createEmotionCache';
+import createEmotionCache from '../src/createEmotionCache';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
