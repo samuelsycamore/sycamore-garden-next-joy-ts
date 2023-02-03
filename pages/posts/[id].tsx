@@ -20,7 +20,7 @@ export default function Post({
         <title>{postData.title}</title>
       </Head>
       <Box sx={{ maxWidth: "600px", mx: "auto" }}>
-        <Typography level="display2" fontSize="xl">{postData.title}</Typography>
+        <Typography level="display2" fontSize="30px">{postData.title}</Typography>
         <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
         <Typography level="body3">
           Published on <Date dateString={postData.date} />
