@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'
 import { getSortedPostsData } from '../lib/posts'
 import Link from 'next/link'
 import Date from '../components/date'
 import { GetStaticProps } from 'next'
+import TypographySystem from '../components/typographySystem'
 
 
 export default function Home({
@@ -23,8 +23,8 @@ export default function Home({
       </Head>
      
       <section>
-        <h2 className={utilStyles.headingLg}>Posts</h2>
-        <ul className={utilStyles.list}>
+        <h2>Posts</h2>
+        <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
               <Link href={`/posts/${id}`}>{title}</Link>
@@ -35,6 +35,9 @@ export default function Home({
             </li>
           ))}
         </ul>
+      </section>
+      <section>
+        <TypographySystem />
       </section>
     </Layout>
   )
