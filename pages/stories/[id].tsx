@@ -19,7 +19,7 @@ export default function Post({
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <Box sx={{ maxWidth: "600px", mx: "auto" }}>
+      <Box sx={{ maxWidth: "600px", mx: "auto", p: "10px" }}>
         <Typography level="display2" fontSize="30px">
           {postData.title}
         </Typography>
