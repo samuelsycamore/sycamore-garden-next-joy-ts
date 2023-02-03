@@ -18,16 +18,16 @@ interface MyAppProps extends AppProps {
 export default function MyApp(props: MyAppProps) {
   const { Component, emotionCache = clientSideEmotionCache, pageProps } = props;
   return (
-    <PlausibleProvider domain="sycamore.garden">
-      <CacheProvider value={emotionCache}>
-        <Head>
-          <meta name="viewport" content="initial-scale=1, width=device-width" />
-        </Head>
+    <CacheProvider value={emotionCache}>
+      <Head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+      </Head>
+      <PlausibleProvider domain="sycamore.garden">
         <CssVarsProvider theme={theme}>
           <CssBaseline />
           <Component {...pageProps} />
         </CssVarsProvider>
-      </CacheProvider>
-    </PlausibleProvider>
+      </PlausibleProvider>
+    </CacheProvider>
   );
 }
