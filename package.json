@@ -6,6 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@fontsource/public-sans": "^4.5.12",
+    "@mui/joy": "^5.0.0-alpha.65",
     "date-fns": "^2.29.3",
     "gray-matter": "^4.0.3",
     "next": "latest",
@@ -13,5 +17,10 @@
     "react-dom": "18.2.0",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "18.11.18",
+    "@types/react": "18.0.27",
+    "typescript": "4.9.5"
   }
 }
