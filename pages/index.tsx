@@ -5,7 +5,7 @@ import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
 import TypographySystem from "../components/typographySystem";
-import { Typography } from "@mui/joy";
+import { Box, Typography } from "@mui/joy";
 
 export default function Home({
   allPostsData,
@@ -22,7 +22,7 @@ export default function Home({
         <title>{siteTitle}</title>
       </Head>
 
-      <section>
+      <Box sx={{ maxWidth: '600px', mx: 'auto' }}>
         <Typography level="display2" fontSize="xl">Stories</Typography>
         <ul>
           {allPostsData.map(({ id, date, title }) => (
@@ -35,10 +35,7 @@ export default function Home({
             </li>
           ))}
         </ul>
-      </section>
-      <section>
-        <TypographySystem />
-      </section>
+      </Box>
     </Layout>
   );
 }

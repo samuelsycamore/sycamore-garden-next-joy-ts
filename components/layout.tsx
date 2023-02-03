@@ -33,8 +33,8 @@ export default function Layout({
           </>
         ) : (
           <>
-            <Typography level="display2" fontSize="xl">
-              <Link href="/">{name}</Link>
+            <Typography level="display1" fontSize="xl">
+              <Link href="/">{name.toUpperCase()}</Link>
             </Typography>
           </>
         )}
