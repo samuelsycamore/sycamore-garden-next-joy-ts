@@ -4,7 +4,6 @@ import { getSortedPostsData } from "../lib/posts";
 import Link from "next/link";
 import Date from "../components/date";
 import { GetStaticProps } from "next";
-import TypographySystem from "../components/typographySystem";
 import { Box, Typography } from "@mui/joy";
 
 export default function Home({
@@ -27,7 +26,7 @@ export default function Home({
         <ul>
           {allPostsData.map(({ id, date, title }) => (
             <li key={id}>
-              <Link href={`/posts/${id}`}>{title}</Link>
+              <Link href={`/stories/${id}`}>{title}</Link>
               <br />
               <small>
                 <Date dateString={date} />
