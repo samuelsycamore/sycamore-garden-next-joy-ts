@@ -3,6 +3,8 @@ import { getAllPostIds, getPostData } from '../../lib/posts'
 import Head from 'next/head'
 import Date from '../../components/date'
 import { GetStaticProps, GetStaticPaths } from 'next'
+import { Box } from '@mui/joy'
+import { margin } from '@mui/system'
 
 export default function Post({
   postData
@@ -18,13 +20,13 @@ export default function Post({
       <Head>
         <title>{postData.title}</title>
       </Head>
-      <article>
-        <h1>{postData.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
-        <div>
-          Published on <Date dateString={postData.date} />
-        </div>
-      </article>
+      <Box sx={{ maxWidth: '600px', mx: 'auto' }}>
+          <h1>{postData.title}</h1>
+          <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+          <div>
+            Published on <Date dateString={postData.date} />
+          </div>
+      </Box>
     </Layout>
   )
 }
