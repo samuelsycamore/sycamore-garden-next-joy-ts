@@ -8,9 +8,6 @@ export const siteTitle = "Sycamore Garden";
 export default function Layout({
   children,
   home,
-}: {
-  children: React.ReactNode;
-  home?: boolean;
 }) {
   return (
     <div>
@@ -27,17 +24,9 @@ export default function Layout({
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header>
-        {home ? (
           <>
             <Typography level="display1">{name.toUpperCase()}</Typography>
           </>
-        ) : (
-          <>
-            <Typography level="display1" fontSize="xl">
-              <Link href="/">{name.toUpperCase()}</Link>
-            </Typography>
-          </>
-        )}
       </header>
       <main>{children}</main>
       {!home && (
