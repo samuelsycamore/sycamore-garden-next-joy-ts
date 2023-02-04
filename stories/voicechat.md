@@ -43,7 +43,7 @@ It sounded like her Voice was sad that mine was sad or something. I didn't feel 
 
 *<<DON'T BLAME YOURSELF. I WISH YOU COULD HAVE BEEN HERE WITH US. IN HIS FINAL MOMENTS. I DON'T WANT TO BE ALONE. MOTHER HE'S NOT IN PAIN ANYMORE. I COULD SWEAR I FELT HIS PRESENCE LEAVE THE ROOM. THE INSTANT HE RELEASED HIS FINAL BREATH. IT WAS AS THOUGH HIS SOUL LEFT HIS BODY. AND ASCENDED STRAIGHT TO HEAVEN. I COULD REALLY FEEL IT. MOTHER IT HURTS REALLY BAD. BUT I'M RELIEVED THAT HE'S FINALLY AT PEACE. AND ONE WITH GOD.>>* 
 
-*<<OH HONEY. I AM TOO. HE'S IN A BETTER PLACE NOW. YOUR FATHER WAS SUCH A WONDERFUL LOVING MAN.>>* Mom took a big bite of something while her VoiceChat was talking. A sandwich. It made me hungry to see her eating. *<<SUCH A KIND AND GENTLE HUSBAND. AND FATHER. HE LOVED YOU WITH ALL HIS HEART. I DO TOO.>>* 
+*<<OH HONEY. I AM TOO. HE'S IN A BETTER PLACE NOW. YOUR FATHER WAS SUCH A WONDERFUL LOVING MAN.>>* Mom took a big bite of something while her VoiceChat was talking. A sandwich. It made me hungry to see her eating. *<< SUCH A KIND AND GENTLE HUSBAND. AND FATHER. HE LOVED YOU WITH ALL HIS HEART. I DO TOO.>>* 
 
 I thought I recognized one of the actors reflected in her glasses during a close-up shot. But I couldn't think of the name. And then the movie kept going.
 
